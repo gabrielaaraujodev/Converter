@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Conversão</title>
+
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Conversor</h1>
+  
+   <div id="container">
+
+      <span>De:</span> 
+        <select name="moedas" id="firstSelect">
+          <option value="Real">Real</option>
+          <option value="Dolar">Dolar</option>
+          <option value="Euro">Euro</option>
+          <option value="Libra">Libra</option>
+          <option value="Iene">Iene</option>
+        </select> 
+      <input type="text" placeholder="5" id="firstCoin">
+
+    <br>
+
+     <span>Para:</span>
+        <select name="moedas" id="secondSelect">
+          <option value="Real">Real</option>
+          <option value="Dolar" selected>Dolar</option>
+          <option value="Euro">Euro</option>
+          <option value="Libra">Libra</option>
+          <option value="Iene">Iene</option>
+        </select> 
+      <input type="text" placeholder="1" id="secondCoin">
+
+   </div> 
+
+   <button id="btnConverter">Converter</button>
+
+  <script src="script.js"></script>
+</body>
+</html>

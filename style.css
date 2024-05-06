@@ -1,0 +1,34 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  font-size: 62.5%;
+}
+
+#container {
+  display: flex;
+  flex-direction: column;
+  width: 10%;
+}
+
+h1 {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+
+span {
+  font-size: 1.8rem;
+  font-weight: bolder;
+}
+
+input {
+  padding: .3rem;
+}
+
+button {
+  margin-top: 1rem;
+  font-weight: bolder;
+}
